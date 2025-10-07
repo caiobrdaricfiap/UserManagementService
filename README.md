@@ -42,5 +42,3 @@ Jogos-->>Usuários: Retorna se o jogo foi adquirido com sucesso
 
 ## URL Miro  
 [https://miro.com/app/board/uXjVJJtlGm4=/?focusWidget=3458764640045890262](https://miro.com/app/board/uXjVJJtlGm4=/?focusWidget=3458764640045890262)
-
-![alt text](image.png)
