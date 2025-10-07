@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using UserManagementService.Data;
+
 namespace UserManagementService
 {
     public class Program
@@ -6,6 +9,9 @@ namespace UserManagementService
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<UserDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Add services to the container.
 

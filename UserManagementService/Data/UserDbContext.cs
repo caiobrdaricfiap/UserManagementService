@@ -8,8 +8,13 @@ namespace UserManagementService.Data
         public UserDbContext(DbContextOptions<UserDbContext> options)
             : base(options)
         {
+        
         }
 
         public DbSet<UserEntity> Users { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(UserDbContext).Assembly);
+        }
     }
 }
