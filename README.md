@@ -41,4 +41,6 @@ Jogos-->>Usuários: Retorna se o jogo foi adquirido com sucesso
 ## Desenho de arquitetura representando o fluxo de funcionamento  
 
 ## URL Miro  
-[https://miro.com/app/board/uXjVJJtlGm4=/?focusWidget=3458764640045890262](https://miro.com/app/board/uXjVJJtlGm4=/?focusWidget=3458764640045890262)
+https://miro.com/app/board/uXjVJJtlGm4=/?focusWidget=3458764640045890262
+
+![alt text](image.png)
